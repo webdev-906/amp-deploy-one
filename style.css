@@ -1,0 +1,31 @@
+body {
+  background: #333;
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+
+}
+
+h1, h2 {
+  border-bottom: 3px solid maroon;
+}
+
+span {
+  color: maroon;
+  font-size: 40px;
+  text-decoration: line-through;
+}
+
+p {
+  font-size: 30px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 20% 20%; 
+  grid-template-rows: 100px;
+  gap: 55px;
+}
+
